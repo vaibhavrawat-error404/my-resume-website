@@ -27,3 +27,18 @@ body {
   background-attachment: fixed;
   min-height: 100vh;
 }
+
+main, header, footer {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+header {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 2.5rem 2rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
