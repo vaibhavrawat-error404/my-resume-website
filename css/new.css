@@ -1,0 +1,22 @@
+
+header{
+    margin: 25px 45px 10px 45px;
+    background-color: rgb(38, 108, 183);
+    padding:10px ;
+    
+}
+*{
+    background-color:rgb(38, 108, 183);
+    padding: 0%;
+    margin: 0%;
+
+}
+header {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 2.5rem 2rem 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
